@@ -1,0 +1,62 @@
+:root {
+  --color-black: #000000;
+  --color-dark-blue: #004272;
+  --color-grayish: #77797d;
+  --color-bright-blue: #0f74b5;
+  --color-light-gray: #b1b1b1;
+  --color-pink: #b50156;
+  --color-medium-gray: #cccccc;
+  --color-pale-gray: #dbdbdb;
+  --color-crimson: #e50d4d;
+  --color-very-light-gray: #ededed;
+  --color-almost-white: #eeeeee;
+  --color-pale-blue: #eef3fa;
+  --color-red: #ff0000;
+  --color-white: #ffffff;
+  --color-deep-blue-gray: #1f4262;
+  --color-dark-gray: #555555;
+  --color-transparent-black: rgba(0, 0, 0, 0);
+  --color-semi-transparent-gray: rgba(219, 219, 219, 0.94);
+}
+.nav-tabs-container {
+  background-color: var(--color-pale-blue);
+  border-bottom: 1px solid var(--color-light-gray);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  margin-bottom: 10px;
+  flex-wrap: nowrap; /* Prevent buttons from wrapping */
+  font-size: 1em;
+  overflow: auto;
+}
+
+.button {
+  background-color: #004080;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px; /* Increase margin if necessary */
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: flex; /* Use flexbox for button contents */
+  align-items: center;
+  justify-content: center;
+  font-size: 1em;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  flex-grow: 1; /* Let buttons grow equally */
+  min-width: 100px; /* Set a minimum width */
+  max-width: 200px; /*Set a maximum width*/
+  flex-shrink: 0; /*Prevent buttons from shrinking*/
+}
+
+.button a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  font-size: 1em;
+}
